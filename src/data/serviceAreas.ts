@@ -1,0 +1,161 @@
+export interface ServiceArea {
+  slug: string;
+  name: string;
+  county: string;
+  distance: string;
+  description: string;
+  primaryServiceSlug: string;
+  image: string;
+  metaTitle: string;
+  metaDescription: string;
+  h1: string;
+  body: string;
+  notes: string;
+}
+
+export const serviceAreas: ServiceArea[] = [
+  {
+    slug: 'valley-al',
+    name: 'Valley, AL',
+    county: 'Chambers County',
+    distance: 'Based in Valley',
+    description: 'Our home base. We provide electrical installation, repair, and troubleshooting services throughout Valley, Alabama.',
+    primaryServiceSlug: 'electrical-installation',
+    image: 'https://images.pexels.com/photos/27928762/pexels-photo-27928762.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Electrician in Valley, AL | Bausley Electrical Services',
+    metaDescription: 'Local electrician serving Valley, Alabama. Electrical installation, repair, panel upgrades, wiring, and troubleshooting. Based in Valley. Call 334-497-0921.',
+    h1: 'Electrician in Valley, Alabama',
+    body: 'Bausley Electrical Services is based in Valley, Alabama, and serves homeowners throughout the city. From our location on Lee Road 2129, we are minutes away from neighborhoods across Valley, including Fairfax, Langdale, and Shawmut. We handle electrical installations, repairs, panel upgrades, wiring, lighting, and troubleshooting for homes throughout the area. When you need a local electrician who understands the homes and the community in Valley, we are ready to help.',
+    notes: 'As a locally based business, we are familiar with the residential properties across Valley and the surrounding Chambers County area.',
+  },
+  {
+    slug: 'lanett-al',
+    name: 'Lanett, AL',
+    county: 'Chambers County',
+    distance: '5 miles from Valley',
+    description: 'Serving Lanett, AL with electrical panel upgrades and repair services.',
+    primaryServiceSlug: 'electrical-panel-repair-upgrades',
+    image: 'https://images.pexels.com/photos/28950842/pexels-photo-28950842.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Electrical Panel Upgrades Lanett, AL | Bausley Electrical',
+    metaDescription: 'Electrical panel repair and upgrades in Lanett, AL. Replace outdated panels, add capacity, and improve safety. Near Valley. Call 334-497-0921.',
+    h1: 'Electrical Panel Upgrades in Lanett, Alabama',
+    body: 'Lanett sits just across the Chattahoochee River from Valley, and we regularly serve homeowners in the area. Many homes in Lanett have older electrical panels that may benefit from inspection, repair, or upgrade — especially if breakers trip frequently or the panel is nearing the end of its service life. We assess your panel, explain the options, and perform repairs or upgrades that bring your system up to modern safety standards.',
+    notes: 'Lanett is adjacent to Valley, making it a natural part of our service area.',
+  },
+  {
+    slug: 'west-point-ga',
+    name: 'West Point, GA',
+    county: 'Troup County, GA',
+    distance: '6 miles from Valley',
+    description: 'Electrical repair and troubleshooting services for West Point, GA.',
+    primaryServiceSlug: 'electrical-repair-troubleshooting',
+    image: 'https://images.pexels.com/photos/14319099/pexels-photo-14319099.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Electrical Repair West Point, GA | Bausley Electrical Services',
+    metaDescription: 'Electrical repair and troubleshooting in West Point, GA. Outlets, breakers, flickering lights, and more. Serving the Valley area. Call 334-497-0921.',
+    h1: 'Electrical Repair in West Point, Georgia',
+    body: 'West Point, Georgia is just across the state line from Valley, and we serve homeowners in the area who need reliable electrical repair. From outlets that have stopped working to breakers that trip repeatedly, we diagnose the problem and fix it at the source. If you are in West Point and experiencing electrical trouble, give us a call — we are just a few minutes away.',
+    notes: 'West Point is directly adjacent to Valley across the Alabama-Georgia state line.',
+  },
+  {
+    slug: 'la-fayette-al',
+    name: 'La Fayette, AL',
+    county: 'Chambers County',
+    distance: '20 miles from Valley',
+    description: 'Wiring and rewiring services for La Fayette, AL.',
+    primaryServiceSlug: 'wiring-rewiring',
+    image: 'https://images.pexels.com/photos/3614763/pexels-photo-3614763.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Wiring & Rewiring La Fayette, AL | Bausley Electrical Services',
+    metaDescription: 'Wiring and rewiring services in La Fayette, AL. Replace old wiring, wire new additions, and bring your home up to code. Call 334-497-0921.',
+    h1: 'Wiring & Rewiring in La Fayette, Alabama',
+    body: 'La Fayette is the county seat of Chambers County, about twenty miles from our base in Valley. We serve homeowners in La Fayette who need wiring upgrades — whether replacing aging conductors in an older home or wiring a new addition. If your home has original wiring that may not meet today\'s safety standards, we can inspect it and recommend the right approach.',
+    notes: 'La Fayette is within Chambers County, where our business is based.',
+  },
+  {
+    slug: 'cusseta-al',
+    name: 'Cusseta, AL',
+    county: 'Chambers County',
+    distance: '12 miles from Valley',
+    description: 'Outlet and switch installation services for Cusseta, AL.',
+    primaryServiceSlug: 'outlet-switch-installation',
+    image: 'https://images.pexels.com/photos/4981794/pexels-photo-4981794.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Outlet & Switch Installation Cusseta, AL | Bausley Electrical',
+    metaDescription: 'Outlet and switch installation in Cusseta, AL. Add GFCI outlets, replace old receptacles, install dimmers. Call Bausley Electrical at 334-497-0921.',
+    h1: 'Outlet & Switch Installation in Cusseta, Alabama',
+    body: 'Cusseta is a small community in Chambers County, a short drive from Valley. We help homeowners in the area add outlets where they need them, replace old or worn receptacles, and upgrade to GFCI protection in kitchens, bathrooms, and outdoor areas. If your home in Cusseta needs new outlets or switches, we are ready to help.',
+    notes: 'Cusseta is within Chambers County.',
+  },
+  {
+    slug: 'five-points-al',
+    name: 'Five Points, AL',
+    county: 'Chambers County',
+    distance: '10 miles from Valley',
+    description: 'Lighting installation services for Five Points, AL.',
+    primaryServiceSlug: 'lighting-installation',
+    image: 'https://images.pexels.com/photos/10164897/pexels-photo-10164897.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Lighting Installation Five Points, AL | Bausley Electrical',
+    metaDescription: 'Lighting installation in Five Points, AL. Recessed lights, pendant fixtures, outdoor lighting, and dimmers. Call Bausley Electrical at 334-497-0921.',
+    h1: 'Lighting Installation in Five Points, Alabama',
+    body: 'Five Points is a small town in Chambers County, close to our home base in Valley. We install recessed lighting, pendant fixtures, chandeliers, outdoor lighting, and dimmer controls for homeowners in the area. Whether you are updating a kitchen, brightening a living room, or adding security lighting outside, we handle the wiring and installation so your lighting looks and works great.',
+    notes: 'Five Points is within Chambers County.',
+  },
+  {
+    slug: 'waverly-al',
+    name: 'Waverly, AL',
+    county: 'Chambers County',
+    distance: '15 miles from Valley',
+    description: 'Ceiling fan installation services for Waverly, AL.',
+    primaryServiceSlug: 'ceiling-fan-installation',
+    image: 'https://images.pexels.com/photos/6835102/pexels-photo-6835102.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Ceiling Fan Installation Waverly, AL | Bausley Electrical',
+    metaDescription: 'Ceiling fan installation in Waverly, AL. Fan-rated boxes, proper wiring, switches, and outdoor fans. Call Bausley Electrical at 334-497-0921.',
+    h1: 'Ceiling Fan Installation in Waverly, Alabama',
+    body: 'Waverly is a small community in Chambers County within our service range. We install ceiling fans with fan-rated boxes, proper wiring, and convenient switching for homeowners in the area. If you want to replace a light fixture with a ceiling fan or add a fan to a room that does not have one, we make sure the installation is safe, secure, and wobble-free.',
+    notes: 'Waverly is within Chambers County.',
+  },
+  {
+    slug: 'chambers-county-al',
+    name: 'Chambers County, AL',
+    county: 'Chambers County',
+    distance: 'Throughout the county',
+    description: 'Circuit breaker services throughout Chambers County, AL.',
+    primaryServiceSlug: 'circuit-breaker-services',
+    image: 'https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Circuit Breaker Services Chambers County, AL | Bausley Electrical',
+    metaDescription: 'Circuit breaker installation, replacement, and repair throughout Chambers County, AL. Fix tripping breakers and add GFCI/AFCI protection. Call 334-497-0921.',
+    h1: 'Circuit Breaker Services in Chambers County, Alabama',
+    body: 'As a Chambers County-based business, we serve homeowners throughout the county with circuit breaker installation, replacement, and repair. If you have breakers that trip frequently, feel warm, or will not reset — or if you need GFCI or AFCI protection added to your panel — we diagnose the issue and perform the right repair. We are based in Valley and serve the surrounding county communities.',
+    notes: 'Our business is based in Chambers County, and we serve the surrounding communities.',
+  },
+  {
+    slug: 'opelika-al',
+    name: 'Opelika, AL',
+    county: 'Lee County',
+    distance: '25 miles from Valley',
+    description: 'Grounding and safety improvement services for Opelika, AL.',
+    primaryServiceSlug: 'electrical-grounding-safety-improvements',
+    image: 'https://images.pexels.com/photos/17842832/pexels-photo-17842832.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Electrical Grounding & Safety Opelika, AL | Bausley Electrical',
+    metaDescription: 'Electrical grounding and safety improvements in Opelika, AL. Upgrade grounding, add GFCI/AFCI protection, install smoke detectors. Call 334-497-0921.',
+    h1: 'Electrical Grounding & Safety in Opelika, Alabama',
+    body: 'Opelika is in neighboring Lee County, within reach of our Valley-based business. We help homeowners in Opelika upgrade electrical grounding, add GFCI and AFCI protection, and install hardwired smoke and carbon monoxide detectors. If your home is older and may lack modern safety features, we inspect the system and recommend improvements that protect your family.',
+    notes: 'Opelika is in Lee County, adjacent to Chambers County where we are based.',
+  },
+  {
+    slug: 'auburn-al',
+    name: 'Auburn, AL',
+    county: 'Lee County',
+    distance: '30 miles from Valley',
+    description: 'Power restoration and diagnostics services for Auburn, AL.',
+    primaryServiceSlug: 'electrical-power-restoration-diagnostics',
+    image: 'https://images.pexels.com/photos/28265032/pexels-photo-28265032.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    metaTitle: 'Power Restoration & Diagnostics Auburn, AL | Bausley Electrical',
+    metaDescription: 'Electrical power restoration and diagnostics in Auburn, AL. Partial outages, fault tracing, breaker issues. Call Bausley Electrical at 334-497-0921.',
+    h1: 'Power Restoration & Diagnostics in Auburn, Alabama',
+    body: 'Auburn is in Lee County, within our extended service range from Valley. If you have experienced a partial or full power outage, flickering lights, or breakers that trip without explanation, we provide professional diagnostics to find the cause and restore safe electrical service. We trace faults through your panel and circuits and recommend lasting repairs.',
+    notes: 'Auburn is in Lee County, within reasonable range of our Chambers County base.',
+  },
+];
+
+export function getServiceArea(slug: string): ServiceArea | undefined {
+  return serviceAreas.find((s) => s.slug === slug);
+}
